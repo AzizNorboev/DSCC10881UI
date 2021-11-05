@@ -14,7 +14,7 @@ namespace VideoGamesUI10881.Controllers
     public class VideogamesController : Controller
     {
         private HttpClient _httpClient;
-        private readonly string _baseUrl = "http://localhost:41564/";
+        private readonly string _baseUrl = "http://ec2-3-144-251-228.us-east-2.compute.amazonaws.com/";
 
         private HttpClient GetHttpClient(string url)
         {
